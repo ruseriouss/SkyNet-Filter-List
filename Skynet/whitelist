@@ -1,0 +1,59 @@
+# Steam
+store.steampowered.com
+api.steampowered.com
+media.steampowered.com
+
+# Epic Games
+epicgames.com
+launcher-website-prod07.ol.epicgames.com
+
+# Blizzard / Battle.net
+battle.net
+blizzard.com
+us.battle.net
+eu.battle.net
+
+# Fortnite
+epicgames.com/fortnite
+epicgames.com/fortnite/api
+
+# Xbox Live
+xboxlive.com
+xbox.com
+xboxlive.intl.xbox.com
+
+# PlayStation Network
+playstation.net
+psnapi.com
+
+# Netflix
+netflix.com
+nflximg.com
+nflxvideo.net
+
+# YouTube / Google
+youtube.com
+ytimg.com
+googlevideo.com
+
+# Disney+
+disneyplus.com
+disneypluscdn.com
+
+# Hulu
+hulu.com
+huluim.com
+
+# Twitch
+twitch.tv
+ttvnw.net
+
+# Spotify
+spotify.com
+scdn.co
+
+# Optional trusted cloud services / personal devices
+aws.amazon.com
+cloudflare.com
+digitalocean.com
+your.own.device.IP.range
