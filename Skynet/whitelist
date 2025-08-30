@@ -1,59 +1,82 @@
 # Steam
-store.steampowered.com
-api.steampowered.com
-media.steampowered.com
+208.64.200.0/22
+208.64.208.0/21
+208.64.216.0/22
+162.254.192.0/18
+162.254.200.0/22
 
 # Epic Games
-epicgames.com
-launcher-website-prod07.ol.epicgames.com
+13.107.4.0/22
+13.107.5.0/24
+13.107.6.0/23
+52.91.0.0/16
+52.95.0.0/16
 
 # Blizzard / Battle.net
-battle.net
-blizzard.com
-us.battle.net
-eu.battle.net
+15.188.0.0/17
+15.188.128.0/17
+143.244.0.0/16
+199.9.254.0/24
 
-# Fortnite
-epicgames.com/fortnite
-epicgames.com/fortnite/api
+# Fortnite (Epic CDN)
+13.32.0.0/15
+52.32.0.0/14
+52.88.0.0/15
 
 # Xbox Live
-xboxlive.com
-xbox.com
-xboxlive.intl.xbox.com
+65.55.0.0/16
+134.170.0.0/16
+137.116.0.0/16
+204.79.197.0/24
+23.100.0.0/16
 
 # PlayStation Network
-playstation.net
-psnapi.com
+81.168.0.0/16
+82.165.0.0/16
+185.60.84.0/22
+185.60.85.0/24
 
 # Netflix
-netflix.com
-nflximg.com
-nflxvideo.net
+52.95.245.0/24
+52.95.246.0/24
+52.94.0.0/16
+52.0.0.0/16
+13.248.0.0/14
 
 # YouTube / Google
-youtube.com
-ytimg.com
-googlevideo.com
+172.217.0.0/16
+216.58.192.0/19
+216.239.32.0/19
+142.250.0.0/15
+74.125.0.0/16
 
 # Disney+
-disneyplus.com
-disneypluscdn.com
+52.208.0.0/15
+13.224.0.0/12
+34.192.0.0/10
 
 # Hulu
-hulu.com
-huluim.com
+52.87.0.0/16
+52.89.0.0/16
+34.200.0.0/15
 
 # Twitch
-twitch.tv
-ttvnw.net
+185.49.36.0/22
+54.230.0.0/16
+34.192.0.0/11
 
 # Spotify
-spotify.com
-scdn.co
+35.186.0.0/17
+35.186.128.0/18
+52.17.0.0/16
+52.29.0.0/16
 
-# Optional trusted cloud services / personal devices
-aws.amazon.com
-cloudflare.com
-digitalocean.com
-your.own.device.IP.range
+# Trusted Cloud Providers
+13.32.0.0/15        # AWS
+13.248.0.0/14       # AWS
+52.94.0.0/16        # AWS
+104.16.0.0/12       # Cloudflare
+104.24.0.0/14       # Cloudflare
+104.31.0.0/16       # Cloudflare
+159.203.0.0/16      # DigitalOcean
+167.114.0.0/16      # DigitalOcean
