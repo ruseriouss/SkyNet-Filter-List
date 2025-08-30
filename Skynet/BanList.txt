@@ -57,3 +57,9 @@ https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt
 https://iplists.firehol.org/files/ciarmy_botnet.ipset
 https://iplists.firehol.org/files/iblocklist_abuse_ch_ip.netset
 https://iplists.firehol.org/files/iblocklist_abuse_ch_domain.netset
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts
+https://iplists.firehol.org/files/coinbl_hosts_browser.ipset
+https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+https://iplists.firehol.org/files/et_block.netset
+https://iplists.firehol.org/files/et_spamhaus.netset
+https://iplists.firehol.org/files/et_compromised.ipset
