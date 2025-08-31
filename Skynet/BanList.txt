@@ -62,4 +62,5 @@ https://iplists.firehol.org/files/coinbl_hosts_browser.ipset
 https://iplists.firehol.org/files/et_block.netset
 https://iplists.firehol.org/files/et_spamhaus.netset
 https://iplists.firehol.org/files/et_compromised.ipset
+https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 
