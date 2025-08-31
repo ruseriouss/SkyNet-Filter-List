@@ -51,6 +51,11 @@ https://iplists.firehol.org/files/emerging_tor.ipset
 https://iplists.firehol.org/files/emerging_exploits.ipset
 https://iplists.firehol.org/files/emerging_botnets.ipset
 https://iplists.firehol.org/files/emerging_cryptominers.ipset
+https://iplists.firehol.org/files/alienvault_reputation.ipset
+https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/ip-list.txt
+https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/outbound.txt
+https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/inbound.txt
+https://raw.githubusercontent.com/ShadowWhisperer/IPs/refs/heads/master/Malware/Hackers
 
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts
 https://raw.githubusercontent.com/jumpsmm7/GeneratedAdblock/master/IPlist.list
@@ -65,3 +70,4 @@ https://iplists.firehol.org/files/emerging_tor.ipset
 https://iplists.firehol.org/files/emerging_exploits.ipset
 https://iplists.firehol.org/files/emerging_botnets.ipset
 https://iplists.firehol.org/files/emerging_cryptominers.ipset
+
