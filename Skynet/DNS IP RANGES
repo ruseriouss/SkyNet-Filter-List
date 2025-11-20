@@ -1,7 +1,7 @@
 #!/bin/sh
 ####################################################################
-#  DNS / DoH / DoT / Telemetry / ISP / Device Privacy Firewall
-#  Optimized for Skynet range bans (CIDR-based)
+# DNS / DoH / DoT / Telemetry / ISP / Device Privacy Firewall
+# Skynet-optimized CIDR Ranges
 ####################################################################
 
 ### --- Google DNS ---
@@ -13,7 +13,7 @@ skynet ban iprange 8.35.192.0/20 "Block Google DNS"
 ### --- Cloudflare DNS ---
 skynet ban iprange 1.1.1.0/24 "Block Cloudflare DNS"
 skynet ban iprange 1.0.0.0/24 "Block Cloudflare DNS"
-skynet ban iprange 104.16.0.0/12 "Block Cloudflare DNS Network"
+skynet ban iprange 104.16.0.0/12 "Block Cloudflare CDN + DoH"
 
 ### --- Quad9 DNS ---
 skynet ban iprange 9.9.9.0/24 "Block Quad9 DNS"
@@ -23,42 +23,46 @@ skynet ban iprange 149.112.112.0/24 "Block Quad9 DNS"
 skynet ban iprange 208.67.220.0/24 "Block OpenDNS"
 skynet ban iprange 208.67.222.0/24 "Block OpenDNS"
 
-### --- Level3 / Lumen / CenturyLink DNS ---
+### --- Level3 / Lumen DNS ---
 skynet ban iprange 4.2.2.0/24 "Block Level3 DNS"
 
-### --- Netflix / CloudFront / CDN DNS fallback ---
+### --- CloudFront / Amazon DNS fallback ---
 skynet ban iprange 13.224.0.0/12 "Block CloudFront DNS"
 skynet ban iprange 54.230.0.0/15 "Block CloudFront DNS"
 
 ### --- Roku (DNS + Telemetry) ---
-skynet ban iprange 8.8.8.0/24 "Block Google DNS for Roku"
-skynet ban iprange 8.8.4.0/24 "Block Google DNS for Roku"
-skynet ban iprange 4.2.2.0/24 "Block Level3 DNS for Roku"
+skynet ban iprange 8.8.8.0/24 "Block Roku hardcoded DNS"
+skynet ban iprange 8.8.4.0/24 "Block Roku hardcoded DNS"
+skynet ban iprange 4.2.2.0/24 "Block Roku fallback DNS"
 skynet ban iprange 34.208.0.0/12 "Block Roku Telemetry"
 skynet ban iprange 52.32.0.0/11 "Block Roku Metrics"
 
-### --- Apple (optional broader network) ---
-skynet ban iprange 17.248.0.0/14 "Block Apple CDN / Captive Portal"
+### --- Apple (Connectivity + CDN) ---
+skynet ban iprange 17.248.0.0/14 "Block Apple CDN / captive portal"
 skynet ban iprange 17.253.0.0/16 "Block Apple connectivity check"
-# skynet ban iprange 17.0.0.0/8 "Block ALL Apple (optional, may break App Store)"
+# skynet ban iprange 17.0.0.0/8 "Block ALL Apple traffic (optional!)"
 
-### --- Samsung / SmartThings / Smart TV ---
-skynet ban iprange 23.32.0.0/11 "Block Samsung Akamai CDN DNS"
+### --- Samsung / SmartThings / Samsung TV ---
+skynet ban iprange 23.32.0.0/11 "Block Samsung Akamai CDN"
 skynet ban iprange 52.46.0.0/15 "Block Samsung AWS CDN"
 skynet ban iprange 52.95.0.0/16 "Block Samsung Cloud / SmartThings"
 
-### --- Microsoft / Windows / Xbox fallback DNS ---
-skynet ban iprange 13.107.0.0/16 "Block Microsoft DoH / DNS"
+### --- Microsoft / Windows / Xbox fallback DNS + DoH ---
+skynet ban iprange 13.107.0.0/16 "Block Microsoft DNS / DoH"
 skynet ban iprange 204.79.197.0/24 "Block Microsoft Telemetry DoH"
 skynet ban iprange 52.113.0.0/16 "Block Microsoft CDN DNS"
 
-### --- Misc. DoH / DoT providers (Browsers & Apps) ---
+### --- Misc. DoH / DoT Providers ---
 skynet ban iprange 76.223.54.0/24 "Block Amazon DoH endpoint"
 skynet ban iprange 34.117.59.0/24 "Block Google DoH endpoint"
 skynet ban iprange 94.140.14.0/23 "Block AdGuard DNS"
-skynet ban iprange 185.228.168.0/22 "Block CleanBrowsing"
-skynet ban iprange 104.18.0.0/15 "Block Mozilla / Cloudflare DoH"
+skynet ban iprange 185.228.168.0/22 "Block CleanBrowsing DNS"
+skynet ban iprange 104.18.0.0/15 "Block Mozilla DoH via Cloudflare"
+
+### --- Additional single IPs (converted to /32) ---
+skynet ban iprange 216.130.71.71/32 "Custom Block"
+skynet ban iprange 216.130.71.72/32 "Custom Block"
 
 ####################################################################
-#  End of list
+# End of list
 ####################################################################
