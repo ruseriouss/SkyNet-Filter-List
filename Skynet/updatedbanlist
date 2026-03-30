@@ -41,7 +41,8 @@ https://lists.blocklist.de/lists/mail.txt
 https://lists.blocklist.de/lists/apache.txt
 https://lists.blocklist.de/lists/all.txt
 https://iplists.firehol.org/files/maxmind_proxy_fraud.ipset
-https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/ip-list.txt
+https://raw.githubusercontent.com/ruseriouss/SkyNet-Filter-List/refs/heads/main/Skynet/isp
+https://raw.githubusercontent.com/ruseriouss/SkyNet-Filter-List/refs/heads/main/Skynet/iprangesdns
 https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/outbound.txt
 https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/inbound.txt
 https://raw.githubusercontent.com/ShadowWhisperer/IPs/refs/heads/master/Malware/Hackers
