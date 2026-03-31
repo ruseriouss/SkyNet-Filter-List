@@ -24,7 +24,6 @@ https://iplists.firehol.org/files/spamhaus_drop.netset
 https://iplists.firehol.org/files/spamhaus_edrop.netset
 https://iplists.firehol.org/files/urlvir.ipset
 https://lists.blocklist.de/lists/strongips.txt
-https://raw.githubusercontent.com/jumpsmm7/GeneratedAdblock/master/IPlist.list
 https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-exit-nodes.lst
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt
