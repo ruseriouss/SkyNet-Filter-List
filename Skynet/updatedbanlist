@@ -17,16 +17,11 @@ https://iplists.firehol.org/files/iblocklist_spamhaus_drop.netset
 https://iplists.firehol.org/files/malc0de.ipset
 https://iplists.firehol.org/files/normshield_high_attack.ipset
 https://iplists.firehol.org/files/spamhaus_drop.netset
-https://iplists.firehol.org/files/spamhaus_edrop.netset
 https://iplists.firehol.org/files/urlvir.ipset
-https://lists.blocklist.de/lists/strongips.txt
 https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-exit-nodes.lst
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt
 https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt
-https://www.blocklist.de/downloads/export-ips_all.txt
-https://lists.blocklist.de/lists/ssh.txt
-https://lists.blocklist.de/lists/apache.txt
 https://raw.githubusercontent.com/ruseriouss/SkyNet-Filter-List/refs/heads/main/Skynet/isp
 https://raw.githubusercontent.com/ruseriouss/SkyNet-Filter-List/refs/heads/main/Skynet/iprangesdns
 https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/outbound.txt
