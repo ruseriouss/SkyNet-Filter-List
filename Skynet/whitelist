@@ -62,6 +62,31 @@
 52.17.0.0/16
 52.29.0.0/16
 
+# Electronic Arts (EA)
+159.153.0.0/20
+159.153.32.0/21
+159.153.48.0/20
+159.153.70.0/23
+159.153.72.0/21
+15.185.0.0/16
+157.175.0.0/16
+
+# EA Domains (wildcards)
+ea.com
+*.ea.com
+origin.com
+*.origin.com
+battlefield.com
+*.battlefield.com
+easports.com
+*.easports.com
+apexlegends.com
+*.apexlegends.com
+bioware.com
+*.bioware.com
+dragonage.com
+*.dragonage.com
+
 # Google Services (Search, Gmail, YouTube)
 172.217.0.0/16
 216.58.192.0/19
