@@ -1,0 +1,87 @@
+# Skynet Whitelist for Gaming, Streaming & Shopping
+# Generated for Asuswrt-Merlin Skynet
+# Format: ASN or IP/CIDR
+
+# ============ GAMING SERVICES ============
+# Steam (Valve)
+AS32590
+# Epic Games
+AS4356
+# PlayStation Network (Sony)
+AS33353
+AS55901
+# Xbox Live (Microsoft)
+AS8075
+# Nintendo
+AS11278
+# EA (Electronic Arts)
+AS2914
+# Rockstar Games
+AS202228
+# Riot Games
+AS6507
+# Cloudflare (many game servers)
+AS13335
+# Akamai (game downloads)
+AS16625
+# Discord (voice)
+AS212798
+# General game hosting
+AS198347
+AS48925
+
+# ============ STREAMING SERVICES ============
+# Netflix
+AS2906
+# Disney+
+AS23344
+# Hulu
+AS23286
+# Amazon Prime Video
+AS16509
+# YouTube / Google
+AS15169
+# Twitch
+AS46489
+# HBO Max
+AS398358
+# Peacock (NBCUniversal)
+AS23352
+# Apple TV+
+AS714
+
+# ============ SHOPPING SERVICES ============
+# Amazon Shopping
+AS16509
+# eBay
+AS32492
+# Shopee
+AS135947
+# Lazada
+AS133376
+# Alibaba / Taobao
+AS24429
+AS45102
+# Walmart (AWS)
+AS14618
+# Target (Akamai)
+AS16625
+AS20940
+# Best Buy (Akamai)
+AS16625
+# Etsy
+AS13414
+# Shopify
+AS62646
+
+# ============ ADDITIONAL CDNs & CLOUD ============
+# Fastly
+AS54113
+# Amazon CloudFront
+AS16509
+# Google Cloud
+AS15169
+# Microsoft Azure
+AS8075
+# Cloudflare (general)
+AS13335
